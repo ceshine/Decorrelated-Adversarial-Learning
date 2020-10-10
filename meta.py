@@ -22,4 +22,12 @@ vgg_toy = {
     'n_cls': 8
 }
 
-age_cutoffs = [12, 18, 25, 35, 45, 55, 65]
+cacd = {
+    'train_root': '/data/CACD2000/train/',
+    'val_root': '/data/CACD2000/valid/',
+    'pat': '_',
+    'pos': 0,
+    'n_cls': 2000
+}
+
+age_cutoffs = [18, 30, 45, 55]
